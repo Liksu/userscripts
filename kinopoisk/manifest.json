@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [ ],
+      "exclude_matches": [  ],
+      "include_globs": [ "http://*kinopoisk.ru/*" ],
+      "js": [ "kinopoisk2nashnet.user.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "converted_from_user_script": true,
+   "description": "Добавляет ссылки на video.nash.net для страницы результатов кинопоиска",
+   "name": "kinopoisk2nashnet",
+   "version": "1.16",
+   "manifest_version": 2
+}

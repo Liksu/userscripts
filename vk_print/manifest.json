@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [ ],
+      "exclude_matches": [ ],
+      "include_globs": [ "http://vkontakte.ru/wall*", "http://vkontakte.ru/*?w=wall*", "http://vk.com/wall*", "http://vk.com/*?w=wall*" ],
+      "js": [ "vk_print_post.user.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "converted_from_user_script": true,
+   "description": "Приводит пост на vk к печатному виду",
+   "name": "VK print",
+   "version": "1.89",
+   "manifest_version": 2
+}
